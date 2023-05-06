@@ -22,10 +22,8 @@ public class SharelaneRegistrationTest {
         WebElement registerButton = driver.findElement(By.cssSelector("[value='Register']"));
         assertTrue(registerButton.isDisplayed(), "Register button isn't displayed");
         
-        driver.quit();
+        
        
-
-
     }
 
 }
